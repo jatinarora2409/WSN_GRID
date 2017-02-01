@@ -40,6 +40,34 @@ $ns namtrace-all $namfile
 $ns namtrace-all-wireless $namfile $val(x) $val(y)
 set chan [new $val(chan)];#Create wireless channel
 
+
+#===================================
+#     Mobile node parameter setup
+#===================================
+$ns node-config -adhocRouting  $val(rp) \
+                -llType        $val(ll) \
+                -macType       $val(mac) \
+                -ifqType       $val(ifq) \
+                -ifqLen        $val(ifqlen) \
+                -antType       $val(ant) \
+                -propType      $val(prop) \
+                -phyType       $val(netif) \
+                -channel       $chan \
+                -topoInstance  $topo \
+				-energyModel $val(energymodel) \
+				-idlePower 0.0 \
+				-rxPower 1.0 \
+				-txPower 1.0 \
+	          	-sleepPower 0.001 \
+    	      	-transitionPower 0.2 \
+    	      	-transitionTime 0.005 \
+				-initialEnergy $val(initialenergy) \
+                -agentTrace    ON \
+                -routerTrace   ON \
+                -macTrace      ON \
+                -movementTrace ON
+
+
 set area [expr $val(x)*$val(y)]
 set area_per_node [ expr $area / $val(nn) ]
 set area_for_square [expr $area_per_node * 4]
@@ -73,25 +101,32 @@ for {set i 0} { $i<$val(nn)} {incr i} {
 	set sink($i) [new Agent/LossMonitor]
 }
 
+
+#===================================
+#      setting Up TCP       
+#===================================
 for {set i 0} { $i<$val(nn)} {incr i} {
 	set tcp($i) [new Agent/TCP]
 }
  
 
-
-
  
-for {set i 0} {$i < $val(nn) } {incr i} { 
-
+ 
+for {set i 1} {$i < $val(nn) } {incr i} { 
 	$ns attach-agent $n_($i) $sink($i)
 	$ns attach-agent $n_($i) $tcp($i)
-	set cbr_($i) [new Agent/CBR]
-   	$ns attach-agent $n_($i) $cbr_($i)
-   	$cbr_($i) set packetSize_ 1000
-   	$cbr_($i) set interval_ 0.5
-   	$ns connect $cbr_($i) $sink($i)
-   	$ns at 3.0 "$cbr_($i) start"
-   	$ns at 60.0 "$cbr_($i) stop"
+
+	set cbr_($i) [new Application/Traffic/CBR]
+
+	$cbr_($i) set packetSize_ 500
+	$cbr_($i) set interval_ 0.005
+	$cbr_($i) attach-agent  $tcp($i)
+
+   	$ns attach-agent $tcp($i) $sink($i)
+
+   	$ns connect $tcp($i) $sink([expr $i-1])
+   	$ns at 1.0 "$cbr_($i) start"
+   	$ns at 124.0 "$cbr_($i) stop"
 }
 
 
