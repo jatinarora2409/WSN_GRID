@@ -1,5 +1,0 @@
-Sconfig 0.00000 tap: on snoop: rts? on errs? on
-Sconfig 0.00000 salvage: on !bd replies? on
-Sconfig 0.00000 grat error: on grat reply: on
-Sconfig 0.00000 $reply for props: on ring 0 search: on
-Sconfig 0.00000 using MOBICACHE

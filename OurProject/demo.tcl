@@ -144,21 +144,47 @@ for {set i 0} {$i< $val(nn)} {incr i} {
 	set xCood  [ $n_($i) set X_ ] 
 	set yCood  [ $n_($i) set Y_ ]
 
-	set output $xCood
-	
 	set xCluster [ expr $xCood / $xIncrease ]
 	set yCluster [ expr $yCood / $yIncrease ]
-	set clusterNumber [ expr $xCluster + $yCluster ]
+	
+	
+	dict set nodeinfo_($i) clusterHeadX $xCluster
+	dict set nodeinfo_($i) clusterHeadY $yCluster
 
-	dict set nodeinfo_($i) cluster $clusterNumber
-	#[lindex [dict get $initialpos($i) loc] 1]
-	puts [lindex [dict get $nodeinfo_($i) cluster] 0]
+	set output $i
+	append output " "
+	append output $xCood
+	append output " "
+	append output $yCood
+	append output " "
+	append output $xIncrease
+	append output " "
+	append output $yIncrease
+	append output " "
+	append output $xCluster
+	append output " "
+	append output $yCluster
+	append output " "
+	append output [lindex [dict get $nodeinfo_($i) clusterHeadX] 0]
+	append output ","
+	append output [lindex [dict get $nodeinfo_($i) clusterHeadY] 0] 
+	puts $output
+
 
 }
 
+proc callsetupphase { } {
+	global ns count
+	set count 0
+	$ns at [expr [$ns now] + $count*70.0] "setupphase"
+	set count [expr $count +1]
+	$ns at [expr [$ns now] + $count*70.0] "callsetupphase"
+}
 
-
-
+proc setupphase {} {
+	global clusterheadtable clusterinfo_ ns n_ a_ val recv_node_CH_info_ MESSAGE_PORT faultynode
+	puts "hello"
+}	
 
 
 # ===================================
@@ -203,8 +229,15 @@ exec nam out.nam &
 exit 0
 }
 
+
+
+puts "calling cluster"
+#$ns at 2.0 "chooseclusterheadrandom"
+puts "calling setup phase"
+$ns at 3.0 "callsetupphase"
+
 # End the program
-$ns at 125.0 "finish"
+$ns at 1000.0 "finish"
 
 # Start the the simulation process
 $ns run
