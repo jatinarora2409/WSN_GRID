@@ -87,6 +87,7 @@ $ns initial_node_pos $n_(0) 20
 $n_(0) color blue
 $ns at 0.0 "$n_(0) color blue"
 
+##This is for mobility
 for {set i 1} {$i < $val(nn)} {incr i} {
 	set n_($i) [$ns node]
 	$n_($i) set X_ [expr rand()*[expr 0.8*$val(x)] +[expr 0.1*$val(x)]]
@@ -95,7 +96,7 @@ for {set i 1} {$i < $val(nn)} {incr i} {
 }
 
 
-
+##
 for {set i 0} {$i <$val(nn)} { incr i} {
 	set l_($i) [new LL]
 	$ns attach-agent $n_($i) $l_($i)
@@ -477,14 +478,14 @@ for {set i 0} { $i<$val(nn)} {incr i} {
  
  
  
-for {set i 0} {$i < $val(nn) } {incr i} { 
+for {set i 1} {$i < $val(nn) } {incr i} { 
 	$ns attach-agent $n_($i) $sink($i)
 	$ns attach-agent $n_($i) $tcp($i)
 	set cbr_($i) [new Agent/CBR]
    	$ns attach-agent $n_($i) $cbr_($i)
    	$cbr_($i) set packetSize_ 1000
    	$cbr_($i) set interval_ 0.5
-   	$ns connect $cbr_($i) $sink($i)
+   	$ns connect $cbr_($i) $sink([expr $i-1])
    	$ns at 3.0 "$cbr_($i) start"
    	$ns at 60.0 "$cbr_($i) stop"
 }

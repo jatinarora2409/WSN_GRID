@@ -17,6 +17,7 @@ set val(stop)   200.0                        ;# time of simulation end
 set val(energymodel)    EnergyModel     ;
 set val(initialenergy) 100
 set round 		1
+set val(gridBoxes) 9
 set MESSAGE_PORT 42 
 
 #===================================
@@ -39,7 +40,6 @@ set namfile [open out.nam w]
 $ns namtrace-all $namfile
 $ns namtrace-all-wireless $namfile $val(x) $val(y)
 set chan [new $val(chan)];#Create wireless channel
-
 
 #===================================
 #     Mobile node parameter setup
@@ -67,13 +67,16 @@ $ns node-config -adhocRouting  $val(rp) \
                 -macTrace      ON \
                 -movementTrace ON
 
-
+#===================================
+#        Nodes Definition        
+#===================================
 set area [expr $val(x)*$val(y)]
 set area_per_node [ expr $area / $val(nn) ]
 set area_for_square [expr $area_per_node * 4]
 set side_float [expr sqrt($area_for_square)]
 set side [expr int($side_float)]
 puts $side
+
 
 
 #===================================
@@ -87,6 +90,7 @@ for {set i 0} {$i < $val(x)} {incr i $side} {
 			$n_($count) set X_ [expr {int(rand()*($side-1)+$i)}]
 			$n_($count) set Y_ [expr {int(rand()*($side-1)+$j)}]
 			$n_($count) set Z_ 0.0
+			$ns initial_node_pos $n_($count) 20
 			incr count
 		}
 	}
@@ -94,57 +98,101 @@ for {set i 0} {$i < $val(x)} {incr i $side} {
 
 
 
-#===================================
+
+for {set i 0} {$i <$val(nn)} { incr i} {
+	set l_($i) [new LL]
+	$ns attach-agent $n_($i) $l_($i)
+	$l_($i) set macDA_ [expr $i+100]
+}
+	
+for {set i 0} {$i <$val(nn)} {incr i} {
+	set Dagent_($i) [new Agent/DSRAgent]
+	$ns attach-agent $n_($i) $Dagent_($i)
+
+}
+
+
+for {set i 0} {$i < $val(nn)} {incr  i} {
+	set p_($i) [new Agent/Ping]
+	$ns attach-agent $n_($i) $p_($i)
+#	puts "n_($i)  [$n_($i) id]  [$p_($i) agent_addr_]"
+}
+
+
+for {set i 0} {$i <$val(nn)} {incr i} {
+	for {set j $i} {$j <$val(nn)} {incr j} {
+		if {$j != $i} {
+			$ns connect $p_($i) $p_($j)
+		}
+	}
+}
+
+
+
+set val(rows) 3
+set val(cols) 3
+
+set xIncrease [expr $val(x)/$val(rows)]
+set yIncrease [expr $val(y)/$val(cols)]
+
+set clusterheadtable {}
+array set nodeinfo_ {}
+
+
+for {set i 0} {$i< $val(nn)} {incr i} {
+	
+	set xCood  [ $n_($i) set X_ ] 
+	set yCood  [ $n_($i) set Y_ ]
+
+	set output $xCood
+	
+	set xCluster [ expr $xCood / $xIncrease ]
+	set yCluster [ expr $yCood / $yIncrease ]
+	set clusterNumber [ expr $xCluster + $yCluster ]
+
+	dict set nodeinfo_($i) cluster $clusterNumber
+	#[lindex [dict get $initialpos($i) loc] 1]
+	puts [lindex [dict get $nodeinfo_($i) cluster] 0]
+
+}
+
+
+
+
+
+
+# ===================================
 #      setting Up Sink       
-#===================================
+# ===================================
 for {set i 0} { $i<$val(nn)} {incr i} {
 	set sink($i) [new Agent/LossMonitor]
 }
 
 
-#===================================
+# ===================================
 #      setting Up TCP       
-#===================================
+# ===================================
 for {set i 0} { $i<$val(nn)} {incr i} {
 	set tcp($i) [new Agent/TCP]
 }
  
 
+
+
+
+
  
  
-for {set i 1} {$i < $val(nn) } {incr i} { 
-	$ns attach-agent $n_($i) $sink($i)
-	$ns attach-agent $n_($i) $tcp($i)
-
-	set cbr_($i) [new Application/Traffic/CBR]
-
-	$cbr_($i) set packetSize_ 500
-	$cbr_($i) set interval_ 0.005
-	$cbr_($i) attach-agent  $tcp($i)
-
-   	$ns attach-agent $tcp($i) $sink($i)
-
-   	$ns connect $tcp($i) $sink([expr $i-1])
-   	$ns at 1.0 "$cbr_($i) start"
-   	$ns at 124.0 "$cbr_($i) stop"
-}
-
-
-#$ns duplex-link $n0 $n2 10Mb 10ms DropTail
-#$ns duplex-link $n0 $n3 20Mb 10ms DropTail
-# Set queue size of the link
-#$ns queue-limit $n0 $n2 20
-
-# Setting a TCP connection
-#set tcp [new Agent/TCP]
-#$ns attach-agent $n0 $tcp
-#set sink [new Agent/TCPSink]
-#$ns attach-agent $n3 $sink
-#$ns connect $tcp $sink
-#$tcp set fid_ 1
-#$tcp set packetSize_ 552
-
-# Defining the 'finish' procedure'
+#for {set i 0} {$i < $val(nn) } {incr i} { 
+#	$ns attach-agent $n_($i) $sink($i)
+#	$ns attach-agent $n_($i) $tcp($i)
+#	set cbr_($i) [new Application/Traffic/CBR]
+#	$cbr_($i) set packetSize_ 500
+#	$cbr_($i) set interval_ 0.005
+#	$cbr_($i) attach-agent  $tcp($i)
+	#  	$ns attach-agent $tcp($i) $sink($i)
+	#  	$ns connect $tcp($i) $sink([expr $i-1])
+   	# 	$ns at 1.0 "$cbr_($i) s
 proc finish {} {
 global ns tracefile namfile
 $ns flush-trace

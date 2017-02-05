@@ -1,0 +1,602 @@
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+1 0 0 0 0
+mehak
+CLUSTERHEADTABLE:1 0 0 0 0
+40 0
+40 0
+40 0
+40 0
+40 0
+1 0 0 0 0
+mehak
+1 2 0 0 0
+mehak
+1 2 3 0 0
+mehak
+1 2 3 0 0
+mehak
+1 2 3 0 0
+mehak
+1 2 3 0 0
+mehak
+1 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 2 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+8 45 3 0 0
+mehak
+CLUSTERHEADTABLE:8 45 3 0 0
+0 0 0 0 0 
+mehak
+0 0 0 0 0 
+mehak
+3 0 0 0 0
+mehak
+3 0 0 0 0
+mehak
+3 0 0 0 0
+mehak
+3 0 0 0 0
+mehak
+3 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+8 0 0 0 0
+mehak
+CLUSTERHEADTABLE:8 0 0 0 0
