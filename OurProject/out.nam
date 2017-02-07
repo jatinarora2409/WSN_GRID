@@ -1,104 +1,1412 @@
-n -t * -s 0  -x 57 -y 97 -Z 0 -z 20  -v circle -c green
-n -t * -s 1  -x 187 -y 177 -Z 0 -z 20  -v circle -c green
-n -t * -s 2  -x 80 -y 119 -Z 0 -z 20  -v circle -c green
-n -t * -s 3  -x 152 -y 108 -Z 0 -z 20  -v circle -c green
-n -t * -s 4  -x 118 -y 328 -Z 0 -z 20  -v circle -c green
-n -t * -s 5  -x 151 -y 210 -Z 0 -z 20  -v circle -c green
-n -t * -s 6  -x 4 -y 276 -Z 0 -z 20  -v circle -c green
-n -t * -s 7  -x 130 -y 382 -Z 0 -z 20  -v circle -c green
-n -t * -s 8  -x 178 -y 531 -Z 0 -z 20  -v circle -c green
-n -t * -s 9  -x 60 -y 451 -Z 0 -z 20  -v circle -c green
-n -t * -s 10  -x 45 -y 525 -Z 0 -z 20  -v circle -c green
-n -t * -s 11  -x 181 -y 567 -Z 0 -z 20  -v circle -c green
-n -t * -s 12  -x 124 -y 654 -Z 0 -z 20  -v circle -c green
-n -t * -s 13  -x 40 -y 670 -Z 0 -z 20  -v circle -c green
-n -t * -s 14  -x 63 -y 618 -Z 0 -z 20  -v circle -c green
-n -t * -s 15  -x 10 -y 754 -Z 0 -z 20  -v circle -c green
-n -t * -s 16  -x 20 -y 820 -Z 0 -z 20  -v circle -c green
-n -t * -s 17  -x 180 -y 858 -Z 0 -z 20  -v circle -c green
-n -t * -s 18  -x 16 -y 982 -Z 0 -z 20  -v circle -c green
-n -t * -s 19  -x 13 -y 946 -Z 0 -z 20  -v circle -c green
-n -t * -s 20  -x 227 -y 139 -Z 0 -z 20  -v circle -c green
-n -t * -s 21  -x 384 -y 20 -Z 0 -z 20  -v circle -c green
-n -t * -s 22  -x 213 -y 126 -Z 0 -z 20  -v circle -c green
-n -t * -s 23  -x 326 -y 152 -Z 0 -z 20  -v circle -c green
-n -t * -s 24  -x 343 -y 368 -Z 0 -z 20  -v circle -c green
-n -t * -s 25  -x 319 -y 378 -Z 0 -z 20  -v circle -c green
-n -t * -s 26  -x 342 -y 343 -Z 0 -z 20  -v circle -c green
-n -t * -s 27  -x 213 -y 349 -Z 0 -z 20  -v circle -c green
-n -t * -s 28  -x 318 -y 401 -Z 0 -z 20  -v circle -c green
-n -t * -s 29  -x 356 -y 420 -Z 0 -z 20  -v circle -c green
-n -t * -s 30  -x 207 -y 519 -Z 0 -z 20  -v circle -c green
-n -t * -s 31  -x 273 -y 507 -Z 0 -z 20  -v circle -c green
-n -t * -s 32  -x 301 -y 652 -Z 0 -z 20  -v circle -c green
-n -t * -s 33  -x 282 -y 774 -Z 0 -z 20  -v circle -c green
-n -t * -s 34  -x 332 -y 694 -Z 0 -z 20  -v circle -c green
-n -t * -s 35  -x 378 -y 693 -Z 0 -z 20  -v circle -c green
-n -t * -s 36  -x 358 -y 859 -Z 0 -z 20  -v circle -c green
-n -t * -s 37  -x 310 -y 833 -Z 0 -z 20  -v circle -c green
-n -t * -s 38  -x 301 -y 881 -Z 0 -z 20  -v circle -c green
-n -t * -s 39  -x 271 -y 892 -Z 0 -z 20  -v circle -c green
-n -t * -s 40  -x 452 -y 96 -Z 0 -z 20  -v circle -c green
-n -t * -s 41  -x 549 -y 124 -Z 0 -z 20  -v circle -c green
-n -t * -s 42  -x 532 -y 153 -Z 0 -z 20  -v circle -c green
-n -t * -s 43  -x 595 -y 3 -Z 0 -z 20  -v circle -c green
-n -t * -s 44  -x 495 -y 361 -Z 0 -z 20  -v circle -c green
-n -t * -s 45  -x 574 -y 394 -Z 0 -z 20  -v circle -c green
-n -t * -s 46  -x 527 -y 242 -Z 0 -z 20  -v circle -c green
-n -t * -s 47  -x 411 -y 266 -Z 0 -z 20  -v circle -c green
-n -t * -s 48  -x 516 -y 524 -Z 0 -z 20  -v circle -c green
-n -t * -s 49  -x 513 -y 455 -Z 0 -z 20  -v circle -c green
-n -t * -s 50  -x 434 -y 522 -Z 0 -z 20  -v circle -c green
-n -t * -s 51  -x 559 -y 544 -Z 0 -z 20  -v circle -c green
-n -t * -s 52  -x 490 -y 769 -Z 0 -z 20  -v circle -c green
-n -t * -s 53  -x 401 -y 610 -Z 0 -z 20  -v circle -c green
-n -t * -s 54  -x 499 -y 732 -Z 0 -z 20  -v circle -c green
-n -t * -s 55  -x 467 -y 608 -Z 0 -z 20  -v circle -c green
-n -t * -s 56  -x 561 -y 963 -Z 0 -z 20  -v circle -c green
-n -t * -s 57  -x 483 -y 811 -Z 0 -z 20  -v circle -c green
-n -t * -s 58  -x 455 -y 998 -Z 0 -z 20  -v circle -c green
-n -t * -s 59  -x 538 -y 850 -Z 0 -z 20  -v circle -c green
-n -t * -s 60  -x 775 -y 7 -Z 0 -z 20  -v circle -c green
-n -t * -s 61  -x 780 -y 136 -Z 0 -z 20  -v circle -c green
-n -t * -s 62  -x 773 -y 81 -Z 0 -z 20  -v circle -c green
-n -t * -s 63  -x 788 -y 42 -Z 0 -z 20  -v circle -c green
-n -t * -s 64  -x 770 -y 230 -Z 0 -z 20  -v circle -c green
-n -t * -s 65  -x 617 -y 310 -Z 0 -z 20  -v circle -c green
-n -t * -s 66  -x 738 -y 384 -Z 0 -z 20  -v circle -c green
-n -t * -s 67  -x 740 -y 364 -Z 0 -z 20  -v circle -c green
-n -t * -s 68  -x 733 -y 506 -Z 0 -z 20  -v circle -c green
-n -t * -s 69  -x 775 -y 538 -Z 0 -z 20  -v circle -c green
-n -t * -s 70  -x 652 -y 497 -Z 0 -z 20  -v circle -c green
-n -t * -s 71  -x 728 -y 579 -Z 0 -z 20  -v circle -c green
-n -t * -s 72  -x 757 -y 699 -Z 0 -z 20  -v circle -c green
-n -t * -s 73  -x 627 -y 617 -Z 0 -z 20  -v circle -c green
-n -t * -s 74  -x 742 -y 703 -Z 0 -z 20  -v circle -c green
-n -t * -s 75  -x 602 -y 778 -Z 0 -z 20  -v circle -c green
-n -t * -s 76  -x 787 -y 892 -Z 0 -z 20  -v circle -c green
-n -t * -s 77  -x 630 -y 937 -Z 0 -z 20  -v circle -c green
-n -t * -s 78  -x 657 -y 932 -Z 0 -z 20  -v circle -c green
-n -t * -s 79  -x 719 -y 966 -Z 0 -z 20  -v circle -c green
-n -t * -s 80  -x 956 -y 192 -Z 0 -z 20  -v circle -c green
-n -t * -s 81  -x 833 -y 134 -Z 0 -z 20  -v circle -c green
-n -t * -s 82  -x 865 -y 111 -Z 0 -z 20  -v circle -c green
-n -t * -s 83  -x 936 -y 3 -Z 0 -z 20  -v circle -c green
-n -t * -s 84  -x 842 -y 303 -Z 0 -z 20  -v circle -c green
-n -t * -s 85  -x 886 -y 231 -Z 0 -z 20  -v circle -c green
-n -t * -s 86  -x 857 -y 312 -Z 0 -z 20  -v circle -c green
-n -t * -s 87  -x 980 -y 264 -Z 0 -z 20  -v circle -c green
-n -t * -s 88  -x 988 -y 523 -Z 0 -z 20  -v circle -c green
-n -t * -s 89  -x 843 -y 467 -Z 0 -z 20  -v circle -c green
-n -t * -s 90  -x 816 -y 420 -Z 0 -z 20  -v circle -c green
-n -t * -s 91  -x 839 -y 460 -Z 0 -z 20  -v circle -c green
-n -t * -s 92  -x 976 -y 797 -Z 0 -z 20  -v circle -c green
-n -t * -s 93  -x 915 -y 607 -Z 0 -z 20  -v circle -c green
-n -t * -s 94  -x 913 -y 736 -Z 0 -z 20  -v circle -c green
-n -t * -s 95  -x 854 -y 653 -Z 0 -z 20  -v circle -c green
-n -t * -s 96  -x 919 -y 862 -Z 0 -z 20  -v circle -c green
-n -t * -s 97  -x 819 -y 871 -Z 0 -z 20  -v circle -c green
-n -t * -s 98  -x 944 -y 889 -Z 0 -z 20  -v circle -c green
-n -t * -s 99  -x 912 -y 881 -Z 0 -z 20  -v circle -c green
+n -t * -s 0  -x 131 -y 36 -Z 0 -z 20  -v circle -c green
+n -t * -s 1  -x 56 -y 27 -Z 0 -z 20  -v circle -c green
+n -t * -s 2  -x 15 -y 85 -Z 0 -z 20  -v circle -c green
+n -t * -s 3  -x 10 -y 168 -Z 0 -z 20  -v circle -c green
+n -t * -s 4  -x 167 -y 251 -Z 0 -z 20  -v circle -c green
+n -t * -s 5  -x 43 -y 243 -Z 0 -z 20  -v circle -c green
+n -t * -s 6  -x 122 -y 251 -Z 0 -z 20  -v circle -c green
+n -t * -s 7  -x 156 -y 201 -Z 0 -z 20  -v circle -c green
+n -t * -s 8  -x 42 -y 470 -Z 0 -z 20  -v circle -c green
+n -t * -s 9  -x 192 -y 564 -Z 0 -z 20  -v circle -c green
+n -t * -s 10  -x 151 -y 574 -Z 0 -z 20  -v circle -c green
+n -t * -s 11  -x 13 -y 476 -Z 0 -z 20  -v circle -c green
+n -t * -s 12  -x 195 -y 637 -Z 0 -z 20  -v circle -c green
+n -t * -s 13  -x 197 -y 649 -Z 0 -z 20  -v circle -c green
+n -t * -s 14  -x 183 -y 721 -Z 0 -z 20  -v circle -c green
+n -t * -s 15  -x 144 -y 778 -Z 0 -z 20  -v circle -c green
+n -t * -s 16  -x 68 -y 955 -Z 0 -z 20  -v circle -c green
+n -t * -s 17  -x 173 -y 880 -Z 0 -z 20  -v circle -c green
+n -t * -s 18  -x 160 -y 987 -Z 0 -z 20  -v circle -c green
+n -t * -s 19  -x 157 -y 800 -Z 0 -z 20  -v circle -c green
+n -t * -s 20  -x 311 -y 16 -Z 0 -z 20  -v circle -c green
+n -t * -s 21  -x 306 -y 18 -Z 0 -z 20  -v circle -c green
+n -t * -s 22  -x 207 -y 173 -Z 0 -z 20  -v circle -c green
+n -t * -s 23  -x 395 -y 186 -Z 0 -z 20  -v circle -c green
+n -t * -s 24  -x 307 -y 351 -Z 0 -z 20  -v circle -c green
+n -t * -s 25  -x 393 -y 256 -Z 0 -z 20  -v circle -c green
+n -t * -s 26  -x 263 -y 204 -Z 0 -z 20  -v circle -c green
+n -t * -s 27  -x 351 -y 200 -Z 0 -z 20  -v circle -c green
+n -t * -s 28  -x 215 -y 417 -Z 0 -z 20  -v circle -c green
+n -t * -s 29  -x 303 -y 568 -Z 0 -z 20  -v circle -c green
+n -t * -s 30  -x 231 -y 505 -Z 0 -z 20  -v circle -c green
+n -t * -s 31  -x 370 -y 441 -Z 0 -z 20  -v circle -c green
+n -t * -s 32  -x 315 -y 725 -Z 0 -z 20  -v circle -c green
+n -t * -s 33  -x 351 -y 641 -Z 0 -z 20  -v circle -c green
+n -t * -s 34  -x 361 -y 737 -Z 0 -z 20  -v circle -c green
+n -t * -s 35  -x 202 -y 794 -Z 0 -z 20  -v circle -c green
+n -t * -s 36  -x 300 -y 809 -Z 0 -z 20  -v circle -c green
+n -t * -s 37  -x 267 -y 930 -Z 0 -z 20  -v circle -c green
+n -t * -s 38  -x 303 -y 969 -Z 0 -z 20  -v circle -c green
+n -t * -s 39  -x 365 -y 993 -Z 0 -z 20  -v circle -c green
+n -t * -s 40  -x 466 -y 160 -Z 0 -z 20  -v circle -c green
+n -t * -s 41  -x 566 -y 124 -Z 0 -z 20  -v circle -c green
+n -t * -s 42  -x 461 -y 167 -Z 0 -z 20  -v circle -c green
+n -t * -s 43  -x 541 -y 54 -Z 0 -z 20  -v circle -c green
+n -t * -s 44  -x 561 -y 305 -Z 0 -z 20  -v circle -c green
+n -t * -s 45  -x 578 -y 294 -Z 0 -z 20  -v circle -c green
+n -t * -s 46  -x 409 -y 396 -Z 0 -z 20  -v circle -c green
+n -t * -s 47  -x 406 -y 363 -Z 0 -z 20  -v circle -c green
+n -t * -s 48  -x 416 -y 533 -Z 0 -z 20  -v circle -c green
+n -t * -s 49  -x 587 -y 502 -Z 0 -z 20  -v circle -c green
+n -t * -s 50  -x 492 -y 533 -Z 0 -z 20  -v circle -c green
+n -t * -s 51  -x 512 -y 591 -Z 0 -z 20  -v circle -c green
+n -t * -s 52  -x 542 -y 767 -Z 0 -z 20  -v circle -c green
+n -t * -s 53  -x 466 -y 637 -Z 0 -z 20  -v circle -c green
+n -t * -s 54  -x 545 -y 759 -Z 0 -z 20  -v circle -c green
+n -t * -s 55  -x 476 -y 737 -Z 0 -z 20  -v circle -c green
+n -t * -s 56  -x 476 -y 927 -Z 0 -z 20  -v circle -c green
+n -t * -s 57  -x 457 -y 990 -Z 0 -z 20  -v circle -c green
+n -t * -s 58  -x 528 -y 895 -Z 0 -z 20  -v circle -c green
+n -t * -s 59  -x 433 -y 934 -Z 0 -z 20  -v circle -c green
+n -t * -s 60  -x 662 -y 48 -Z 0 -z 20  -v circle -c green
+n -t * -s 61  -x 702 -y 22 -Z 0 -z 20  -v circle -c green
+n -t * -s 62  -x 699 -y 63 -Z 0 -z 20  -v circle -c green
+n -t * -s 63  -x 617 -y 70 -Z 0 -z 20  -v circle -c green
+n -t * -s 64  -x 652 -y 343 -Z 0 -z 20  -v circle -c green
+n -t * -s 65  -x 769 -y 345 -Z 0 -z 20  -v circle -c green
+n -t * -s 66  -x 721 -y 357 -Z 0 -z 20  -v circle -c green
+n -t * -s 67  -x 728 -y 306 -Z 0 -z 20  -v circle -c green
+n -t * -s 68  -x 654 -y 536 -Z 0 -z 20  -v circle -c green
+n -t * -s 69  -x 740 -y 507 -Z 0 -z 20  -v circle -c green
+n -t * -s 70  -x 699 -y 578 -Z 0 -z 20  -v circle -c green
+n -t * -s 71  -x 647 -y 597 -Z 0 -z 20  -v circle -c green
+n -t * -s 72  -x 617 -y 741 -Z 0 -z 20  -v circle -c green
+n -t * -s 73  -x 613 -y 757 -Z 0 -z 20  -v circle -c green
+n -t * -s 74  -x 735 -y 700 -Z 0 -z 20  -v circle -c green
+n -t * -s 75  -x 751 -y 727 -Z 0 -z 20  -v circle -c green
+n -t * -s 76  -x 631 -y 901 -Z 0 -z 20  -v circle -c green
+n -t * -s 77  -x 671 -y 950 -Z 0 -z 20  -v circle -c green
+n -t * -s 78  -x 653 -y 969 -Z 0 -z 20  -v circle -c green
+n -t * -s 79  -x 788 -y 865 -Z 0 -z 20  -v circle -c green
+n -t * -s 80  -x 922 -y 39 -Z 0 -z 20  -v circle -c green
+n -t * -s 81  -x 857 -y 88 -Z 0 -z 20  -v circle -c green
+n -t * -s 82  -x 973 -y 140 -Z 0 -z 20  -v circle -c green
+n -t * -s 83  -x 927 -y 136 -Z 0 -z 20  -v circle -c green
+n -t * -s 84  -x 956 -y 394 -Z 0 -z 20  -v circle -c green
+n -t * -s 85  -x 955 -y 290 -Z 0 -z 20  -v circle -c green
+n -t * -s 86  -x 871 -y 241 -Z 0 -z 20  -v circle -c green
+n -t * -s 87  -x 874 -y 268 -Z 0 -z 20  -v circle -c green
+n -t * -s 88  -x 861 -y 449 -Z 0 -z 20  -v circle -c green
+n -t * -s 89  -x 895 -y 468 -Z 0 -z 20  -v circle -c green
+n -t * -s 90  -x 919 -y 463 -Z 0 -z 20  -v circle -c green
+n -t * -s 91  -x 868 -y 541 -Z 0 -z 20  -v circle -c green
+n -t * -s 92  -x 984 -y 624 -Z 0 -z 20  -v circle -c green
+n -t * -s 93  -x 970 -y 603 -Z 0 -z 20  -v circle -c green
+n -t * -s 94  -x 849 -y 780 -Z 0 -z 20  -v circle -c green
+n -t * -s 95  -x 854 -y 607 -Z 0 -z 20  -v circle -c green
+n -t * -s 96  -x 949 -y 974 -Z 0 -z 20  -v circle -c green
+n -t * -s 97  -x 923 -y 871 -Z 0 -z 20  -v circle -c green
+n -t * -s 98  -x 880 -y 991 -Z 0 -z 20  -v circle -c green
+n -t * -s 99  -x 889 -y 903 -Z 0 -z 20  -v circle -c green
 V -t * -v 1.0a5 -a 0
 W -t * -x 1000 -y 1000
 A -t * -n 1 -p 0 -o 0x7fffffff -c 30 -a 1
 A -t * -h 1 -m 1073741823 -s 0
+n -t 10 -s 0 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 1 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 2 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 3 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 4 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 5 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 6 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 7 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 8 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 9 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 10 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 11 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 12 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 13 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 14 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 15 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 16 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 17 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 18 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 19 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 20 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 21 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 22 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 23 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 24 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 25 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 26 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 27 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 28 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 29 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 30 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 31 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 32 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 33 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 34 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 35 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 36 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 37 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 38 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 39 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 40 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 41 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 42 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 43 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 44 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 45 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 46 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 47 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 48 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 49 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 50 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 51 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 52 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 53 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 54 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 55 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 56 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 57 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 58 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 59 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 60 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 61 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 62 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 63 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 64 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 65 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 66 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 67 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 68 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 69 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 70 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 71 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 72 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 73 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 74 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 75 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 76 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 77 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 78 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 79 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 80 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 81 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 82 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 83 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 84 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 85 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 86 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 87 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 88 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 89 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 90 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 91 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 92 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 93 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 94 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 95 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 96 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 97 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 98 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 99 -S COLOR -c green -o green -i green -I green
+n -t 10 -s 26 -S COLOR -c red -o red -i red -I red
+n -t 10 -s 9 -S COLOR -c red -o red -i red -I red
+n -t 10 -s 36 -S COLOR -c red -o red -i red -I red
+n -t 10 -s 41 -S COLOR -c red -o red -i red -I red
+n -t 10 -s 50 -S COLOR -c red -o red -i red -I red
+n -t 10 -s 72 -S COLOR -c red -o red -i red -I red
+n -t 10 -s 85 -S COLOR -c red -o red -i red -I red
+n -t 10 -s 65 -S COLOR -c red -o red -i red -I red
+n -t 10 -s 96 -S COLOR -c red -o red -i red -I red
+n -t 30 -s 0 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 1 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 2 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 3 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 4 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 5 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 6 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 7 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 8 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 9 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 10 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 11 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 12 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 13 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 14 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 15 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 16 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 17 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 18 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 19 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 20 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 21 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 22 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 23 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 24 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 25 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 26 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 27 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 28 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 29 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 30 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 31 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 32 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 33 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 34 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 35 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 36 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 37 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 38 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 39 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 40 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 41 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 42 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 43 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 44 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 45 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 46 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 47 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 48 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 49 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 50 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 51 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 52 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 53 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 54 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 55 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 56 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 57 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 58 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 59 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 60 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 61 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 62 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 63 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 64 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 65 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 66 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 67 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 68 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 69 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 70 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 71 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 72 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 73 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 74 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 75 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 76 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 77 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 78 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 79 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 80 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 81 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 82 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 83 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 84 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 85 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 86 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 87 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 88 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 89 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 90 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 91 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 92 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 93 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 94 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 95 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 96 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 97 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 98 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 99 -S COLOR -c green -o green -i green -I green
+n -t 30 -s 0 -S COLOR -c red -o red -i red -I red
+n -t 30 -s 29 -S COLOR -c red -o red -i red -I red
+n -t 30 -s 32 -S COLOR -c red -o red -i red -I red
+n -t 30 -s 27 -S COLOR -c red -o red -i red -I red
+n -t 30 -s 68 -S COLOR -c red -o red -i red -I red
+n -t 30 -s 76 -S COLOR -c red -o red -i red -I red
+n -t 30 -s 80 -S COLOR -c red -o red -i red -I red
+n -t 30 -s 91 -S COLOR -c red -o red -i red -I red
+n -t 30 -s 98 -S COLOR -c red -o red -i red -I red
+n -t 50 -s 0 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 1 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 2 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 3 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 4 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 5 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 6 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 7 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 8 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 9 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 10 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 11 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 12 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 13 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 14 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 15 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 16 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 17 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 18 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 19 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 20 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 21 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 22 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 23 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 24 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 25 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 26 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 27 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 28 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 29 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 30 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 31 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 32 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 33 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 34 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 35 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 36 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 37 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 38 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 39 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 40 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 41 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 42 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 43 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 44 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 45 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 46 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 47 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 48 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 49 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 50 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 51 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 52 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 53 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 54 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 55 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 56 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 57 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 58 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 59 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 60 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 61 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 62 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 63 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 64 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 65 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 66 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 67 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 68 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 69 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 70 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 71 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 72 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 73 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 74 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 75 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 76 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 77 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 78 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 79 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 80 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 81 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 82 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 83 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 84 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 85 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 86 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 87 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 88 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 89 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 90 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 91 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 92 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 93 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 94 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 95 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 96 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 97 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 98 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 99 -S COLOR -c green -o green -i green -I green
+n -t 50 -s 0 -S COLOR -c red -o red -i red -I red
+n -t 50 -s 10 -S COLOR -c red -o red -i red -I red
+n -t 50 -s 17 -S COLOR -c red -o red -i red -I red
+n -t 50 -s 43 -S COLOR -c red -o red -i red -I red
+n -t 50 -s 31 -S COLOR -c red -o red -i red -I red
+n -t 50 -s 39 -S COLOR -c red -o red -i red -I red
+n -t 50 -s 86 -S COLOR -c red -o red -i red -I red
+n -t 50 -s 69 -S COLOR -c red -o red -i red -I red
+n -t 50 -s 94 -S COLOR -c red -o red -i red -I red
+n -t 70 -s 0 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 1 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 2 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 3 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 4 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 5 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 6 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 7 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 8 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 9 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 10 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 11 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 12 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 13 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 14 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 15 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 16 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 17 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 18 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 19 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 20 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 21 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 22 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 23 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 24 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 25 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 26 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 27 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 28 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 29 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 30 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 31 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 32 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 33 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 34 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 35 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 36 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 37 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 38 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 39 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 40 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 41 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 42 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 43 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 44 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 45 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 46 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 47 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 48 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 49 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 50 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 51 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 52 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 53 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 54 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 55 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 56 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 57 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 58 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 59 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 60 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 61 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 62 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 63 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 64 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 65 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 66 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 67 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 68 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 69 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 70 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 71 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 72 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 73 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 74 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 75 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 76 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 77 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 78 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 79 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 80 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 81 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 82 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 83 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 84 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 85 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 86 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 87 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 88 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 89 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 90 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 91 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 92 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 93 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 94 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 95 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 96 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 97 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 98 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 99 -S COLOR -c green -o green -i green -I green
+n -t 70 -s 21 -S COLOR -c red -o red -i red -I red
+n -t 70 -s 24 -S COLOR -c red -o red -i red -I red
+n -t 70 -s 36 -S COLOR -c red -o red -i red -I red
+n -t 70 -s 44 -S COLOR -c red -o red -i red -I red
+n -t 70 -s 49 -S COLOR -c red -o red -i red -I red
+n -t 70 -s 54 -S COLOR -c red -o red -i red -I red
+n -t 70 -s 80 -S COLOR -c red -o red -i red -I red
+n -t 70 -s 70 -S COLOR -c red -o red -i red -I red
+n -t 70 -s 98 -S COLOR -c red -o red -i red -I red
+n -t 90 -s 0 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 1 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 2 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 3 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 4 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 5 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 6 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 7 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 8 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 9 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 10 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 11 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 12 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 13 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 14 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 15 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 16 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 17 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 18 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 19 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 20 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 21 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 22 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 23 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 24 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 25 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 26 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 27 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 28 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 29 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 30 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 31 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 32 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 33 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 34 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 35 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 36 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 37 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 38 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 39 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 40 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 41 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 42 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 43 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 44 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 45 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 46 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 47 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 48 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 49 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 50 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 51 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 52 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 53 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 54 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 55 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 56 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 57 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 58 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 59 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 60 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 61 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 62 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 63 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 64 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 65 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 66 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 67 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 68 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 69 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 70 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 71 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 72 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 73 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 74 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 75 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 76 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 77 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 78 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 79 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 80 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 81 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 82 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 83 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 84 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 85 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 86 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 87 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 88 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 89 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 90 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 91 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 92 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 93 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 94 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 95 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 96 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 97 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 98 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 99 -S COLOR -c green -o green -i green -I green
+n -t 90 -s 26 -S COLOR -c red -o red -i red -I red
+n -t 90 -s 28 -S COLOR -c red -o red -i red -I red
+n -t 90 -s 14 -S COLOR -c red -o red -i red -I red
+n -t 90 -s 43 -S COLOR -c red -o red -i red -I red
+n -t 90 -s 49 -S COLOR -c red -o red -i red -I red
+n -t 90 -s 58 -S COLOR -c red -o red -i red -I red
+n -t 90 -s 62 -S COLOR -c red -o red -i red -I red
+n -t 90 -s 65 -S COLOR -c red -o red -i red -I red
+n -t 90 -s 75 -S COLOR -c red -o red -i red -I red
+n -t 110 -s 0 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 1 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 2 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 3 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 4 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 5 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 6 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 7 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 8 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 9 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 10 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 11 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 12 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 13 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 14 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 15 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 16 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 17 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 18 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 19 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 20 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 21 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 22 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 23 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 24 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 25 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 26 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 27 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 28 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 29 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 30 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 31 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 32 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 33 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 34 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 35 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 36 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 37 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 38 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 39 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 40 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 41 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 42 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 43 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 44 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 45 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 46 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 47 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 48 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 49 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 50 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 51 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 52 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 53 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 54 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 55 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 56 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 57 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 58 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 59 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 60 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 61 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 62 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 63 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 64 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 65 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 66 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 67 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 68 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 69 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 70 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 71 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 72 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 73 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 74 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 75 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 76 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 77 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 78 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 79 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 80 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 81 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 82 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 83 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 84 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 85 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 86 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 87 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 88 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 89 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 90 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 91 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 92 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 93 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 94 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 95 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 96 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 97 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 98 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 99 -S COLOR -c green -o green -i green -I green
+n -t 110 -s 26 -S COLOR -c red -o red -i red -I red
+n -t 110 -s 12 -S COLOR -c red -o red -i red -I red
+n -t 110 -s 14 -S COLOR -c red -o red -i red -I red
+n -t 110 -s 40 -S COLOR -c red -o red -i red -I red
+n -t 110 -s 47 -S COLOR -c red -o red -i red -I red
+n -t 110 -s 58 -S COLOR -c red -o red -i red -I red
+n -t 110 -s 61 -S COLOR -c red -o red -i red -I red
+n -t 110 -s 90 -S COLOR -c red -o red -i red -I red
+n -t 110 -s 79 -S COLOR -c red -o red -i red -I red
+n -t 130 -s 0 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 1 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 2 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 3 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 4 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 5 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 6 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 7 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 8 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 9 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 10 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 11 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 12 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 13 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 14 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 15 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 16 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 17 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 18 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 19 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 20 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 21 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 22 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 23 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 24 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 25 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 26 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 27 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 28 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 29 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 30 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 31 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 32 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 33 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 34 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 35 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 36 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 37 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 38 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 39 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 40 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 41 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 42 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 43 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 44 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 45 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 46 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 47 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 48 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 49 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 50 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 51 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 52 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 53 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 54 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 55 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 56 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 57 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 58 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 59 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 60 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 61 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 62 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 63 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 64 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 65 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 66 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 67 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 68 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 69 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 70 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 71 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 72 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 73 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 74 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 75 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 76 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 77 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 78 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 79 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 80 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 81 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 82 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 83 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 84 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 85 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 86 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 87 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 88 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 89 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 90 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 91 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 92 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 93 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 94 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 95 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 96 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 97 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 98 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 99 -S COLOR -c green -o green -i green -I green
+n -t 130 -s 5 -S COLOR -c red -o red -i red -I red
+n -t 130 -s 28 -S COLOR -c red -o red -i red -I red
+n -t 130 -s 37 -S COLOR -c red -o red -i red -I red
+n -t 130 -s 44 -S COLOR -c red -o red -i red -I red
+n -t 130 -s 50 -S COLOR -c red -o red -i red -I red
+n -t 130 -s 34 -S COLOR -c red -o red -i red -I red
+n -t 130 -s 80 -S COLOR -c red -o red -i red -I red
+n -t 130 -s 89 -S COLOR -c red -o red -i red -I red
+n -t 130 -s 97 -S COLOR -c red -o red -i red -I red
+n -t 150 -s 0 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 1 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 2 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 3 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 4 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 5 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 6 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 7 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 8 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 9 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 10 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 11 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 12 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 13 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 14 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 15 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 16 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 17 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 18 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 19 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 20 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 21 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 22 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 23 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 24 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 25 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 26 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 27 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 28 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 29 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 30 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 31 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 32 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 33 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 34 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 35 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 36 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 37 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 38 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 39 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 40 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 41 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 42 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 43 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 44 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 45 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 46 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 47 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 48 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 49 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 50 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 51 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 52 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 53 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 54 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 55 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 56 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 57 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 58 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 59 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 60 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 61 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 62 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 63 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 64 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 65 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 66 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 67 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 68 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 69 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 70 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 71 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 72 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 73 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 74 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 75 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 76 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 77 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 78 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 79 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 80 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 81 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 82 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 83 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 84 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 85 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 86 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 87 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 88 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 89 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 90 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 91 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 92 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 93 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 94 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 95 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 96 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 97 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 98 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 99 -S COLOR -c green -o green -i green -I green
+n -t 150 -s 6 -S COLOR -c red -o red -i red -I red
+n -t 150 -s 9 -S COLOR -c red -o red -i red -I red
+n -t 150 -s 37 -S COLOR -c red -o red -i red -I red
+n -t 150 -s 45 -S COLOR -c red -o red -i red -I red
+n -t 150 -s 47 -S COLOR -c red -o red -i red -I red
+n -t 150 -s 52 -S COLOR -c red -o red -i red -I red
+n -t 150 -s 62 -S COLOR -c red -o red -i red -I red
+n -t 150 -s 70 -S COLOR -c red -o red -i red -I red
+n -t 150 -s 79 -S COLOR -c red -o red -i red -I red
+n -t 170 -s 0 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 1 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 2 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 3 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 4 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 5 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 6 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 7 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 8 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 9 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 10 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 11 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 12 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 13 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 14 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 15 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 16 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 17 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 18 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 19 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 20 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 21 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 22 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 23 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 24 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 25 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 26 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 27 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 28 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 29 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 30 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 31 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 32 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 33 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 34 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 35 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 36 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 37 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 38 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 39 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 40 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 41 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 42 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 43 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 44 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 45 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 46 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 47 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 48 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 49 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 50 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 51 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 52 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 53 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 54 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 55 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 56 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 57 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 58 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 59 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 60 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 61 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 62 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 63 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 64 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 65 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 66 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 67 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 68 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 69 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 70 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 71 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 72 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 73 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 74 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 75 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 76 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 77 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 78 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 79 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 80 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 81 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 82 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 83 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 84 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 85 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 86 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 87 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 88 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 89 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 90 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 91 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 92 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 93 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 94 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 95 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 96 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 97 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 98 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 99 -S COLOR -c green -o green -i green -I green
+n -t 170 -s 22 -S COLOR -c red -o red -i red -I red
+n -t 170 -s 11 -S COLOR -c red -o red -i red -I red
+n -t 170 -s 32 -S COLOR -c red -o red -i red -I red
+n -t 170 -s 40 -S COLOR -c red -o red -i red -I red
+n -t 170 -s 48 -S COLOR -c red -o red -i red -I red
+n -t 170 -s 59 -S COLOR -c red -o red -i red -I red
+n -t 170 -s 87 -S COLOR -c red -o red -i red -I red
+n -t 170 -s 66 -S COLOR -c red -o red -i red -I red
+n -t 170 -s 96 -S COLOR -c red -o red -i red -I red
+n -t 190 -s 0 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 1 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 2 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 3 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 4 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 5 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 6 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 7 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 8 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 9 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 10 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 11 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 12 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 13 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 14 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 15 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 16 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 17 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 18 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 19 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 20 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 21 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 22 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 23 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 24 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 25 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 26 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 27 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 28 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 29 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 30 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 31 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 32 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 33 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 34 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 35 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 36 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 37 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 38 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 39 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 40 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 41 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 42 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 43 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 44 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 45 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 46 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 47 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 48 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 49 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 50 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 51 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 52 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 53 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 54 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 55 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 56 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 57 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 58 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 59 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 60 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 61 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 62 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 63 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 64 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 65 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 66 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 67 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 68 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 69 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 70 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 71 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 72 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 73 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 74 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 75 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 76 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 77 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 78 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 79 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 80 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 81 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 82 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 83 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 84 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 85 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 86 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 87 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 88 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 89 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 90 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 91 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 92 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 93 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 94 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 95 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 96 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 97 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 98 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 99 -S COLOR -c green -o green -i green -I green
+n -t 190 -s 26 -S COLOR -c red -o red -i red -I red
+n -t 190 -s 12 -S COLOR -c red -o red -i red -I red
+n -t 190 -s 19 -S COLOR -c red -o red -i red -I red
+n -t 190 -s 45 -S COLOR -c red -o red -i red -I red
+n -t 190 -s 33 -S COLOR -c red -o red -i red -I red
+n -t 190 -s 55 -S COLOR -c red -o red -i red -I red
+n -t 190 -s 86 -S COLOR -c red -o red -i red -I red
+n -t 190 -s 70 -S COLOR -c red -o red -i red -I red
+n -t 190 -s 96 -S COLOR -c red -o red -i red -I red
+n -t 210 -s 0 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 1 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 2 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 3 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 4 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 5 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 6 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 7 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 8 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 9 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 10 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 11 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 12 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 13 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 14 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 15 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 16 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 17 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 18 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 19 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 20 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 21 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 22 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 23 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 24 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 25 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 26 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 27 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 28 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 29 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 30 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 31 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 32 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 33 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 34 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 35 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 36 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 37 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 38 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 39 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 40 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 41 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 42 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 43 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 44 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 45 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 46 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 47 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 48 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 49 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 50 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 51 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 52 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 53 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 54 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 55 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 56 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 57 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 58 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 59 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 60 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 61 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 62 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 63 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 64 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 65 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 66 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 67 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 68 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 69 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 70 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 71 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 72 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 73 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 74 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 75 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 76 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 77 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 78 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 79 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 80 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 81 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 82 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 83 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 84 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 85 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 86 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 87 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 88 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 89 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 90 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 91 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 92 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 93 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 94 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 95 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 96 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 97 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 98 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 99 -S COLOR -c green -o green -i green -I green
+n -t 210 -s 7 -S COLOR -c red -o red -i red -I red
+n -t 210 -s 10 -S COLOR -c red -o red -i red -I red
+n -t 210 -s 19 -S COLOR -c red -o red -i red -I red
+n -t 210 -s 23 -S COLOR -c red -o red -i red -I red
+n -t 210 -s 47 -S COLOR -c red -o red -i red -I red
+n -t 210 -s 52 -S COLOR -c red -o red -i red -I red
+n -t 210 -s 82 -S COLOR -c red -o red -i red -I red
+n -t 210 -s 95 -S COLOR -c red -o red -i red -I red
+n -t 210 -s 94 -S COLOR -c red -o red -i red -I red
+n -t 230 -s 0 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 1 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 2 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 3 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 4 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 5 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 6 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 7 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 8 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 9 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 10 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 11 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 12 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 13 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 14 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 15 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 16 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 17 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 18 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 19 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 20 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 21 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 22 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 23 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 24 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 25 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 26 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 27 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 28 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 29 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 30 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 31 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 32 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 33 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 34 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 35 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 36 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 37 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 38 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 39 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 40 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 41 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 42 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 43 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 44 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 45 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 46 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 47 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 48 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 49 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 50 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 51 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 52 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 53 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 54 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 55 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 56 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 57 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 58 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 59 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 60 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 61 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 62 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 63 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 64 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 65 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 66 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 67 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 68 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 69 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 70 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 71 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 72 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 73 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 74 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 75 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 76 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 77 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 78 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 79 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 80 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 81 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 82 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 83 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 84 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 85 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 86 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 87 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 88 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 89 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 90 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 91 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 92 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 93 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 94 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 95 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 96 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 97 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 98 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 99 -S COLOR -c green -o green -i green -I green
+n -t 230 -s 6 -S COLOR -c red -o red -i red -I red
+n -t 230 -s 8 -S COLOR -c red -o red -i red -I red
+n -t 230 -s 19 -S COLOR -c red -o red -i red -I red
+n -t 230 -s 60 -S COLOR -c red -o red -i red -I red
+n -t 230 -s 51 -S COLOR -c red -o red -i red -I red
+n -t 230 -s 73 -S COLOR -c red -o red -i red -I red
+n -t 230 -s 83 -S COLOR -c red -o red -i red -I red
+n -t 230 -s 84 -S COLOR -c red -o red -i red -I red
+n -t 230 -s 98 -S COLOR -c red -o red -i red -I red

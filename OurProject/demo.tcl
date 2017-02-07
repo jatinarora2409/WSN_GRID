@@ -19,6 +19,14 @@ set val(initialenergy) 100
 set round 		1
 set val(gridBoxes) 9
 set MESSAGE_PORT 42 
+set val(rows) 3
+set val(cols) 3
+set xIncrease [expr $val(x)/$val(cols)]
+set yIncrease [expr $val(y)/$val(rows)]
+set val(resetTime) 20
+
+
+
 
 #===================================
 #        Initialization        
@@ -128,13 +136,6 @@ for {set i 0} {$i <$val(nn)} {incr i} {
 }
 
 
-
-set val(rows) 3
-set val(cols) 3
-
-set xIncrease [expr $val(x)/$val(rows)]
-set yIncrease [expr $val(y)/$val(cols)]
-
 set clusterheadtable {}
 array set nodeinfo_ {}
 
@@ -148,8 +149,9 @@ for {set i 0} {$i< $val(nn)} {incr i} {
 	set yCluster [ expr $yCood / $yIncrease ]
 	
 	
-	dict set nodeinfo_($i) clusterHeadX $xCluster
-	dict set nodeinfo_($i) clusterHeadY $yCluster
+	dict set nodeinfo_($i) clusterBoxX $xCluster
+	dict set nodeinfo_($i) clusterBoxY $yCluster
+	dict set nodeinfo_($i) clusterHead 0
 
 	set output $i
 	append output " "
@@ -165,25 +167,37 @@ for {set i 0} {$i< $val(nn)} {incr i} {
 	append output " "
 	append output $yCluster
 	append output " "
-	append output [lindex [dict get $nodeinfo_($i) clusterHeadX] 0]
+	append output [lindex [dict get $nodeinfo_($i) clusterBoxX] 0]
 	append output ","
-	append output [lindex [dict get $nodeinfo_($i) clusterHeadY] 0] 
-	puts $output
-
-
+	append output [lindex [dict get $nodeinfo_($i) clusterBoxY] 0] 
+	#puts $output
 }
 
+
+#this call setup phase after every 70 units of time
 proc callsetupphase { } {
-	global ns count
+	global ns count val
 	set count 0
-	$ns at [expr [$ns now] + $count*70.0] "setupphase"
+	$ns at [expr [$ns now] + $count*$val(resetTime)] "setupphase"
 	set count [expr $count +1]
-	$ns at [expr [$ns now] + $count*70.0] "callsetupphase"
+	$ns at [expr [$ns now] + $count*$val(resetTime)] "callsetupphase"
+}
+
+proc resetClusterHeads {} {
+	global nodeinfo_ val n_ ns
+	
+	for {set i 0} { $i<$val(nn)} {incr i} {
+	dict set nodeinfo_($i) clusterHead 0
+	$ns at [$ns now] "$n_($i) color green"	
+	}
+
 }
 
 proc setupphase {} {
 	global clusterheadtable clusterinfo_ ns n_ a_ val recv_node_CH_info_ MESSAGE_PORT faultynode
-	puts "hello"
+	#Check the code from cbr.tcl
+	resetClusterHeads
+	chooseclusterheadrandom 
 }	
 
 
@@ -201,11 +215,81 @@ for {set i 0} { $i<$val(nn)} {incr i} {
 for {set i 0} { $i<$val(nn)} {incr i} {
 	set tcp($i) [new Agent/TCP]
 }
+
+
+Node instproc color { color } {
+   $self instvar attr_ id_
  
+   set ns [Simulator instance]
+ 
+   set attr_(COLOR) $color
+   set attr_(LCOLOR) $color
+   if [$ns is-started] {
+     # color must be initialized
+     $ns puts-nam-config \
+     [eval list "n -t [$ns now] -s $id_ -S COLOR -c $color -o $attr_(COLOR) -i $color -I $attr_(LCOLOR)"]
+   }
+}
 
 
+proc chooseclusterheadrandom {} {
+	global nodeinfo_ val n_ ns
+			for {set i 0} { $i < $val(rows)} {incr i} {
+				for {set j 0} { $j < $val(cols)} {incr j} {
+					set clusterX $i
+					set clusterY $j
+					set count 0
+					array unset listOfNodes
+					
+						for {set k 0} { $k < $val(nn) } { incr k} {
+							if { [lindex [dict get $nodeinfo_($k) clusterBoxX] 0] == $clusterX && [lindex [dict get $nodeinfo_($k) clusterBoxY] 0] == $clusterY } {
+									set listOfNodes($count) $k
+									incr count
+							}
+						}
+					
+					set output $count
+					append output  " "
+					append output $clusterX
+					append output  " "
+					append output $clusterY
+					append output  " "
+					append output $listOfNodes(0)
+					append output  " "
+					append output [array size listOfNodes]
+					#puts $output
 
+					set numberOfelements [array size listOfNodes]
+					set countNumber [ expr int(rand()*$numberOfelements)]
+					set clusterHeadForCluster $listOfNodes($countNumber)	
+					puts $clusterHeadForCluster
+					dict set nodeinfo_($clusterHeadForCluster) clusterHead 1
+					$ns at [$ns now] "$n_($clusterHeadForCluster) color red"	
+		}
+	}
+	}
+	# global clusterheadtable ns n_ val xlocs ylocs node_list_BS f1
+	# set clusterheadtable { }	
+	# set min {1000 1000 1000 1000 1000}
+	# set value {0 0 0 0 0 }
+	# set max 0
+ #    for {set i 1} {$i < $val(nn)} { incr i} {
+ #    	set x [$n_($i) set X_]
+ #    	set y [$n_($i) set Y_]
+	# set ener [$n_($i) energy]
 
+ #    	for {set j 0} { $j < 5} {incr j} {
+ #    	set d_($j) [expr sqrt((pow([lindex $xlocs $j]-$x,2)) + (pow([lindex $ylocs $j]-$y,2)))]
+ #    	puts "locs [lindex $xlocs $j] [lindex $ylocs $j] $i $d_($j)"
+ #    		if { $d_($j) < [lindex $min $j] && $max < $ener } {
+	# 		set max $ener    			
+	# 		lset min $j $d_($j)
+ #    			lset value $j $i
+ #    	}
+ #    	}
+ #    	puts $f1 "$value"
+	# puts $f1 "mehak"
+	
 
  
  
@@ -234,12 +318,12 @@ exit 0
 puts "calling cluster"
 #$ns at 2.0 "chooseclusterheadrandom"
 puts "calling setup phase"
-$ns at 3.0 "callsetupphase"
-
+$ns at 10.0 "callsetupphase"
 # End the program
-$ns at 1000.0 "finish"
+$ns at 250.0 "finish"
 
 # Start the the simulation process
 $ns run
+
 
 
